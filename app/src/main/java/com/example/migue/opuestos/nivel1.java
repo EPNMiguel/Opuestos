@@ -110,7 +110,7 @@ public class nivel1 extends AppCompatActivity {
         int valorid = image1.getId();
         String texto = String.valueOf(valorid);
         Toast.makeText(this, texto, Toast.LENGTH_SHORT).show();
-            mTTS.speak(texto, TextToSpeech.QUEUE_FLUSH, null);
+            mTTS.speak("nuevo", TextToSpeech.QUEUE_FLUSH, null);
         }
     }
 
